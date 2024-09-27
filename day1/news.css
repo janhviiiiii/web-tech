@@ -1,0 +1,52 @@
+body{
+    height: 100vh;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+#main_container{
+    width: 24%;
+    height: 80%;
+    margin: auto;
+    margin-top: 5rem;
+    background-image: url(newsbg.png); 
+    background-size: cover; 
+    background-position: center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#content{
+    font-size: small;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    justify-items: center;
+    padding: 1rem;
+}
+
+h4{
+    color: grey;
+    font-weight: 100;
+}
+
+h3{
+    font-weight: 200;
+    font-size: 1.3rem;
+}
+
+p{
+    color: grey;
+}
+
+button{
+    height: 2rem;
+    width: 7rem;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(50, 63, 75);
+    color: white;
+}

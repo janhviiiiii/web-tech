@@ -1,0 +1,57 @@
+body {
+    height: 100vh; 
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#main_content {
+    width: 22%;
+    height: 80%;
+    margin: auto;
+    margin-top: 5rem;
+    background-image: url(advancedTechno.png); 
+    background-size: cover; 
+    background-position: center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /*to add the content at the bottom of the div*/
+}
+
+#content {
+    background-color: white; 
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding: 1rem; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+   
+}
+
+h3{
+    color: rgb(92, 92, 197);
+    font-family:cursive;
+    margin-left: 0.7rem;
+    font-weight:bolder;
+}
+
+p{
+    
+    margin-left: 0.7rem;
+    font-weight:100;
+    color: rgb(75, 71, 71);
+}
+
+button{
+    margin-left: 0.7rem;
+    
+    width: 8rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    border: 1px solid grey;
+    background-color: white;
+}
+
+#save_draft{
+    background-color: rgb(92, 92, 197);
+    color: white;
+    border: none;
+}
