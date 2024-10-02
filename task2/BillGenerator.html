@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill Generator</title>
+    <link rel="stylesheet" href="BillGenerator.css">
+</head>
+<body>
+    <div class="main_container">
+        <div class="container1">
+            <div class="c1col">
+                <h4 id="c1h" class="cnt1h">Bill</h4>
+                
+                <input id="c1input" class="input" type="text">
+            </div>
+            <div class="c1col2">
+                <h4 id="c2h" class="cnt1h">Select Tip %</h4>
+                <div class="btn_div">
+                    <button class="btn">5%</button>
+                    <button class="btn">10%</button>
+                    <button class="btn">15%</button>
+                </div>
+                <div class="btn_div">
+                    <button class="btn">2%</button>
+                    <button class="btn">25%</button>
+                    <button class="btn" id="custom_btn">Custom</button>
+                </div>
+            </div>
+            <div class="c1col3">
+                <h4 id="c3h" class="cnt1h">Number of People</h4>
+                <input id="c3input" class="input" type="text">
+            </div>
+        </div>
+
+        <div class="container2">
+
+            <div class="cn2col1">
+                <div class="cn2div1">
+                    <h4 id="cn2h1" class="cnt2h">Tip Amount</h4>
+                    <p id="person">/ person</p>
+                </div>
+                <div class="cn2div2">
+                    $0.00
+                </div>      
+            </div>
+
+            <div class="cn2col2">
+                <div class="cn2div1">
+                    <h4 id="cn2h2" class="cnt2h">Total Amount</h4>
+                    <p id="person">/ person</p>
+                </div>
+                <div class="cn2div2">
+                    $0.00
+                </div>    
+            </div>
+            <div class="reset_btn_div">
+                <button id="reset_btn">Reset</button>
+            </div>
+            
+
+        </div>
+    </div>
+    
+</body>
+</html>
