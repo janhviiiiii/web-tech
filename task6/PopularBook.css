@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-family:cursive;
+}
+
+.main_container
+{
+    background-color: rgb(27, 27, 27);
+    width: 26%;
+    /* height: 40vh; */
+    margin: auto;
+    margin-top: 0.5rem;
+    padding: 1rem;
+    border: 3px solid black;
+    margin-bottom: 1rem;
+    /* border-radius: 25px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+}
+
+h4{
+    font-size: 1.6rem;
+    letter-spacing: 0.1rem;
+}
+
+
+.container1
+{
+    display: flex;
+    /* flex-direction: column; */
+    background-color: white;
+    color: black;
+    margin-top: 0.5rem;
+    margin-bottom: 0.7rem;
+    border-radius: 10px;
+
+}
+
+#img1
+{
+    width: 38%;
+}
+
+.c1col
+{
+    display: flex;
+    flex-direction: column;
+    padding-left: 1.5rem;
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+}
+
+#c1colh
+{
+    color: rgb(18, 85, 141);
+    font-size: 1.4rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.c1col p
+{
+    font-weight: 550;
+}
+
+#by
+{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: rgb(18, 85, 141);
+    font-weight: light;
+}
+
+.btn
+{
+    background-color: rgb(0, 124, 250);
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    height: 1.8rem;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    width: 7rem;
+}
+
+
+.container2
+{
+    display: flex;
+    /* flex-direction: column; */
+    /* background-color: white; */
+    color: black;
+    color: white;
+    margin-top: 1rem;
+}
+
+#img2, #img3
+{
+    width: 25%;
+}
+
+.c2col
+{
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+}
+
+h6
+{
+    font-size: 1rem;
+    margin-top: 0.1rem;
+    margin-bottom: 0.3rem;
+}
+
+.c2col p
+{
+    font-size: 0.8rem;
+    font-weight: lighter;
+    /* margin-top: 0.3rem; */
+}
+
+#c2btn1, #c2btn2
+{
+    margin-top: 2rem;
+}

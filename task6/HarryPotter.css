@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-family:cursive;
+}
+
+.main_container
+{
+    background-color: rgb(27, 27, 27);
+    width: 26%;
+    /* height: 40vh; */
+    margin: auto;
+    margin-top: 0.5rem;
+    padding: 1rem;
+    border: 3px solid black;
+    margin-bottom: 1rem;
+    /* border-radius: 25px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+    text-align: center;
+}
+
+.container2
+{
+    margin-top: 0.5rem;
+}
+
+#c2h
+{
+    font-size: 1.5rem;
+    margin-bottom: 0rem;
+}
+
+#c2p
+{
+    font-size: 0.8rem;
+    color: rgb(141, 139, 123);
+    margin-top: 0.2rem;
+}
+
+#c3p
+{
+    text-align: start;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+}
+
+.btn
+{
+    margin-top: 1rem;
+}
+
+#back_btn, #buynow_btn
+{
+    width: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    height: 1.8rem;
+    border: none;
+    border-radius: 5px;
+}
+
+#back_btn
+{
+    background-color: rgb(255, 193, 52);
+    color: black;
+}
+
+#buynow_btn
+{
+    background-color: rgb(0, 124, 250);
+    color: white;
+   
+}
