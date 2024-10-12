@@ -1,0 +1,98 @@
+*
+{
+    margin: 0;
+    top: 0;
+}
+
+.main_container
+{
+    width: 28%;
+    margin: auto;
+    margin-top: 0.6rem;
+    background-color: rgb(213, 226, 234);
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid white;
+    box-shadow: 10px 10px 5px grey;
+}
+
+#img
+{
+    width: 100%;
+}
+
+.container1
+{
+    width: auto;
+    height: 10rem;
+}
+
+.container2
+{
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+}
+
+
+.div1, .div2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* text-align: center; */
+}
+
+.div1
+{
+    margin-bottom: 1.8rem;
+    color:rgb(100, 99, 99);
+}
+
+.d1
+{
+    padding: 0.8rem;
+    /* margin-left: 1rem; */
+    /* margin-right: 1rem; */
+    background-color: white;
+    text-align: center;
+    width: 7.5rem;
+    height: 8rem;
+    border-radius: 5px;
+    color:rgb(100, 99, 99);
+
+}
+
+p{
+    font-size: 0.8rem;
+}
+
+#price
+{
+    font-size: 1rem;
+}
+
+#back_btn
+{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: white;
+    background-color: rgb(58, 121, 252);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 6rem;
+    height: 2rem;
+    text-align: center;
+    margin-left: 40%;
+    justify-content: center;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    
+    cursor: pointer;
+}

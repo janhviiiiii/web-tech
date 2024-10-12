@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main_container {
+    margin: auto;
+    width: 23%;
+    max-width: 400px;
+    height: auto;
+    max-height: 90vh;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: 10px 10px 5px grey;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.container1 {
+    font-family: cursive;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: white;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    box-shadow: 10px 10px 5px grey;
+    color: rgb(68, 63, 75);
+    background-color: rgb(241, 198, 115);
+    margin-top: -1.3rem;
+}
+
+#img {
+    width: 100%;
+    height: auto;
+}
+
+h4 {
+    color: rgb(52, 63, 75);
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin-bottom: 0.2rem;
+
+}
+
+p {
+    color: rgb(52, 63, 75);
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    font-weight: 570;
+}
+
+.btn_div {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+#bookNow_btn, #back_btn {
+    padding: 0.5rem 1.3rem;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    /* padding-bottom: 2rem; */
+}
+
+#bookNow_btn {
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+#back_btn {
+    background-color: rgb(58, 121, 252);
+    color: white;
+    border: none;
+}

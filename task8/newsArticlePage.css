@@ -1,0 +1,92 @@
+*
+{
+    margin: 0;
+    top: 0;
+}
+
+.main_container
+{
+    margin: auto;
+    width: 23%;
+    /* height: 80vh; */
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: 10px 10px 5px grey;
+    /* border: 2px solid red; */
+   
+}
+
+.container1
+{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    padding-right: 1rem;
+   
+}
+
+#img
+{
+    /* width: 100%; */
+    height: 23rem;
+}
+
+p
+{
+    margin-top: 1rem;
+    color: rgb(112, 111, 128);
+    font-size: x-small;
+}
+
+h5
+{
+    color: rgb(56, 56, 56);
+    font-size: 0.9rem;
+    margin-top: 1.2rem;
+    font-weight: 600;
+}
+
+#para
+{
+    font-size: small;
+    color: rgb(89, 88, 101);
+}
+
+.btn_div
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    margin-bottom: 1.4rem;
+
+}
+
+#readMore_btn
+{
+    background-color: rgb(52, 63, 75);
+    height: 2rem;
+    color: white;
+    border-radius: 5px;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    margin-right: 2rem;
+    border: none;
+    cursor: pointer;
+
+}
+
+#back_btn
+{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border: none;
+    height: 2rem;
+    background-color: rgb(58, 121, 252);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}

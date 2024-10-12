@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.main_container {
+    background: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/arvrbg.png') center/cover no-repeat;
+    width: 22%;
+    max-width: 400px;
+    height: 40rem;
+    position: relative;
+    border-radius: 10px;
+    /* overflow: hidden; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.content {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: white;
+    color: rgb(109, 82, 170);
+    padding: 1rem;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+
+h4 {
+    font-family: cursive;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: rgb(109, 82, 170);
+}
+
+p {
+    color: rgb(52, 63, 75);
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.btn_div {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+#learnMore_btn, #back_btn {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.8rem;
+}
+
+#learnMore_btn {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid grey;
+}
+
+#back_btn {
+    background-color: #3a79fc;
+    color: #ffffff;
+}
