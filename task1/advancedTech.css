@@ -6,43 +6,39 @@ body {
 
 #main_content {
     width: 22%;
-    height: 80%;
+    height: 90%;
     margin: auto;
-    margin-top: 5rem;
+    margin-top: 2rem;
     background-image: url(advancedTechno.png); 
     background-size: cover; 
-    background-position: center; 
     display: flex;
     flex-direction: column;
     justify-content: flex-end; /*to add the content at the bottom of the div*/
+    box-shadow:  5px 5px 10px black;   
 }
 
 #content {
     background-color: white; 
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
-    padding: 1rem; 
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 1rem;     
 }
 
 h3{
     color: rgb(92, 92, 197);
     font-family:cursive;
-    margin-left: 0.7rem;
     font-weight:bolder;
 }
 
 p{
-    
-    margin-left: 0.7rem;
     font-weight:100;
     color: rgb(75, 71, 71);
 }
 
 button{
-    margin-left: 0.7rem;
-    
     width: 8rem;
     height: 2.5rem;
     border-radius: 10px;

@@ -16,14 +16,14 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    box-shadow: 5px 5px 10px black;
 }
 
 #content{
     font-size: small;
     background-color: white;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
     justify-items: center;
     padding: 1rem;
 }
@@ -43,7 +43,7 @@ p{
 }
 
 button{
-    height: 2rem;
+    height: 2.5rem;
     width: 7rem;
     border-radius: 10px;
     border: none;
