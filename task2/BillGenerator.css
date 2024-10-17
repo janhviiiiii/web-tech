@@ -10,11 +10,10 @@
     height: 40vh;
     margin: auto;
     margin-top: 10rem;
-    padding: 2rem;
+    padding: 2.3rem;
     border: 3px solid rgb(81, 81, 140);
     border-radius: 25px;
     display: flex;
-    justify-content: space-around;
     background-color: rgb(174, 181, 197);
 }
 
@@ -23,28 +22,18 @@
     width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
-#c1h
+.c1col1, .c1col2, .c1col3
 {
-    margin-bottom: 0.5rem;
-    margin-left: 0.2rem;
+    height: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
-#c2h
-{
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-}
-
-#c3h
-{
-    margin-bottom: 1rem;
-    margin-left: 0.2rem;
-}
-
-#c1input, #c3input
+#c1input, #c3input 
 {
     border: none;
     height: 2rem;
@@ -54,7 +43,6 @@
     display: flex;
     text-align: end;
     padding-right: 1.3rem;
-    
 }
 
 .input
@@ -65,13 +53,14 @@
 
 .dollar
 {
-    width: 1rem;
+    width: 2rem;
     height: 2rem;
     background-color: white;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    padding-left: 1.3rem;
+    /* padding-left: 1.3rem; */
     display: flex;
+    justify-content: center;
     align-items: center;
    
 }
@@ -83,13 +72,6 @@
     padding-right: 1.3rem;
 } */
 
-#c2h
-{
-    margin-bottom: 1rem;
-    margin-left: 0.2rem;
-
-}
-
 .btn
 {
     width: 4.5rem;
@@ -98,7 +80,7 @@
     color: white;
     margin: 0.3rem;
     border-radius: 7px;
-    border: none;
+    /* border: none; */
     cursor: pointer;
 }
 
@@ -122,10 +104,7 @@
     border-radius: 10px;
     padding: 3rem;
     box-sizing: border-box;
-    /* justify-content: space-between; */
 }
-
-
 
 .cn2col1, .cn2col2
 {
@@ -138,7 +117,6 @@
     margin-bottom: 3rem;
 }
 
-
 #person
 {
     color: grey;
@@ -148,6 +126,12 @@
 {
     color: rgb(29, 122, 151);
     font-size: 2rem;
+}
+
+
+.reset_btn_div
+{
+    margin-top: 3rem;
 }
 
 #reset_btn
@@ -162,9 +146,3 @@
     border: none;
     font-size: 1.1rem;
 }
-
-.reset_btn_div
-{
-    margin-top: 3rem;
-}
-

@@ -8,14 +8,17 @@
 </head>
 <body>
     <div class="main_container">
+        
         <div class="container1">
-            <div class="c1col">
+
+            <div class="c1col1">
                 <h4 id="c1h" class="cnt1h">Bill</h4>
                 <div class="input">
                     <div class="dollar">$</div>
-                    <input id="c1input" class="input" type="number" placeholder="0">
+                    <input id="c1input" type="number" placeholder="0">
                 </div>
             </div>
+
             <div class="c1col2">
                 <h4 id="c2h" class="cnt1h">Select Tip %</h4>
                 <div class="btn_div">
@@ -29,22 +32,22 @@
                     <button class="btn" id="custom_btn">Custom</button>
                 </div>
             </div>
+
             <div class="c1col3">
                 <h4 id="c3h" class="cnt1h">Number of People</h4>
                 <div class="input">
                     <div class="dollar">$</div>
-                    <input id="c3input" class="input" type="number" placeholder="0">
+                    <input id="c3input" type="number" placeholder="0">
                     <!-- <div class="zero">0</div> -->
-
                 </div>
-                
             </div>
+
         </div>
 
-        <div class="container2">
+        <div class="container2"> <!--direction:col-->
 
-            <div class="cn2col1">
-                <div class="cn2div1">
+            <div class="cn2col1"> <!--direction:row-->
+                <div class="cn2div1"> <!--direction:col-->
                     <h4 id="cn2h1" class="cnt2h">Tip Amount</h4>
                     <p id="person">/ person</p>
                 </div>
@@ -53,8 +56,8 @@
                 </div>      
             </div>
 
-            <div class="cn2col2">
-                <div class="cn2div1">
+            <div class="cn2col2"> <!--direction:row-->
+                <div class="cn2div1"> <!--direction:col-->
                     <h4 id="cn2h2" class="cnt2h">Total Amount</h4>
                     <p id="person">/ person</p>
                 </div>
@@ -62,6 +65,8 @@
                     $0.00
                 </div>    
             </div>
+
+            <!--con2-> col3 -->
             <div class="reset_btn_div">
                 <button id="reset_btn">Reset</button>
             </div>
