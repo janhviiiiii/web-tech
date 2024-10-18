@@ -33,11 +33,35 @@
     text-align: center;
 }
 
+
 #profile_img {
     height: 5rem;
     width: 5rem;
     border-radius: 50%;    
+    margin-top: 0.2rem;
 }
+
+.image_border2
+{
+    height: 5.5rem;
+    width: 5.5rem;
+    border: 2px solid rgb(116, 96, 75);
+    border-radius: 50%;
+    border-left: none;
+    
+}
+
+.image_border1
+{
+    height: 6rem;
+    width: 6rem;
+    border: 2px solid rgb(116, 96, 75);
+    border-radius: 50%;
+    border-right: none;
+    margin-left: 2rem;
+}
+
+
 
 .c1col2
 {
